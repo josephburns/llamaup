@@ -19,3 +19,10 @@ Processing by Rails::WelcomeController#index as HTML
 Completed 200 OK in 173ms (Views: 10.8ms)
 
 
+Started GET "/" for 127.0.0.1 at 2017-10-26 14:44:09 -0400
+Processing by Rails::WelcomeController#index as HTML
+  Rendering /Users/jburns/.rvm/gems/ruby-2.4.2/gems/railties-5.1.4/lib/rails/templates/rails/welcome/index.html.erb
+  Rendered /Users/jburns/.rvm/gems/ruby-2.4.2/gems/railties-5.1.4/lib/rails/templates/rails/welcome/index.html.erb (3.7ms)
+Completed 200 OK in 214ms (Views: 9.9ms)
+
+
