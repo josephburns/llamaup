@@ -47,7 +47,7 @@ RSpec.describe Company, type: :model do
     end
   end
 
-  describe :trials_status do
+  describe :trial_status do
     it 'trials_status returns true if within trial period' do
       company = create(:company, :name => 'a valid name', :plan_level => 'custom')
       expect(company.trial_status).to be_truthy
@@ -58,4 +58,6 @@ RSpec.describe Company, type: :model do
       expect(company.trial_status).to_not be_truthy
     end
   end
+
+
 end

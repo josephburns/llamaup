@@ -5,6 +5,19 @@
         1,
         null
       ],
+      "/Users/jburns/code/llamaup/app/models/lesson.rb": [
+        1,
+        1,
+        null,
+        1,
+        1,
+        null
+      ],
+      "/Users/jburns/code/llamaup/app/models/application_record.rb": [
+        1,
+        1,
+        null
+      ],
       "/Users/jburns/code/llamaup/app/models/company.rb": [
         1,
         1,
@@ -13,16 +26,11 @@
         1,
         null,
         1,
-        2,
+        0,
         null,
-        null
-      ],
-      "/Users/jburns/code/llamaup/app/models/application_record.rb": [
-        1,
-        1,
         null
       ]
     },
-    "timestamp": 1509117581
+    "timestamp": 1509121251
   }
 }
