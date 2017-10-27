@@ -6,4 +6,8 @@ class CompaniesController < ApplicationController
   def alphabetically
     render json: { data: Company.order(:name)}
   end
+
+  def with_modern_plan
+    render json: { data: Company.where.not(plan_level: ['custom', 'legacy']) }
+  end
 end

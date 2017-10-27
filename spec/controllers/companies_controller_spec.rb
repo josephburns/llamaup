@@ -40,4 +40,21 @@ RSpec.describe CompaniesController, type: :controller do
     end
   end
 
+  describe "get #with_modern_plan" do
+    it "returns http success" do
+      get :with_modern_plan
+      expect(response).to have_http_status(:success)
+    end
+    it "returns only those companies under the modern plan" do
+      for i in 0..4
+        create(:company, :name => "company#{i}", :plan_level => 'custom')
+        create(:company, :name => "company#{i+i}", :plan_level => 'legacy')
+        create(:company, :name => "company#{i+i+i}", :plan_level => 'basic')
+      end
+      get :with_modern_plan
+      json = JSON.parse(response.body)
+      expect(json['data'].length).to eq(5)
+    end
+  end
+
 end
