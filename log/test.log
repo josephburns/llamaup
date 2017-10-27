@@ -1684,3 +1684,543 @@ Migrating to AddActiveToLessons (20171027161644)
   [1m[35mSQL (0.4ms)[0m  [1m[32mINSERT INTO "companies" ("name", "plan_level", "created_at", "updated_at") VALUES (?, ?, ?, ?)[0m  [["name", "some company"], ["plan_level", "custom"], ["created_at", "2017-10-27 16:20:51.570973"], ["updated_at", "2017-10-27 16:20:51.570973"]]
   [1m[35m (0.1ms)[0m  [1m[35mRELEASE SAVEPOINT active_record_1[0m
   [1m[35m (0.5ms)[0m  [1m[31mrollback transaction[0m
+  [1m[35m (0.2ms)[0m  [1m[34mSELECT "schema_migrations"."version" FROM "schema_migrations" ORDER BY "schema_migrations"."version" ASC[0m
+  [1m[35m (0.1ms)[0m  [1m[36mbegin transaction[0m
+  [1m[35m (0.2ms)[0m  [1m[35mSAVEPOINT active_record_1[0m
+  [1m[35mSQL (1.0ms)[0m  [1m[32mINSERT INTO "companies" ("name", "plan_level", "created_at", "updated_at") VALUES (?, ?, ?, ?)[0m  [["name", "some company"], ["plan_level", "custom"], ["created_at", "2017-10-27 16:21:12.885818"], ["updated_at", "2017-10-27 16:21:12.885818"]]
+  [1m[35m (0.1ms)[0m  [1m[35mRELEASE SAVEPOINT active_record_1[0m
+  [1m[35m (0.2ms)[0m  [1m[35mSAVEPOINT active_record_1[0m
+  [1m[35mSQL (0.4ms)[0m  [1m[32mINSERT INTO "lessons" ("name", "company_id", "created_at", "updated_at", "active") VALUES (?, ?, ?, ?, ?)[0m  [["name", "alesson"], ["company_id", 1], ["created_at", "2017-10-27 16:21:12.910510"], ["updated_at", "2017-10-27 16:21:12.910510"], ["active", "t"]]
+  [1m[35m (0.1ms)[0m  [1m[35mRELEASE SAVEPOINT active_record_1[0m
+  [1m[35m (0.8ms)[0m  [1m[31mrollback transaction[0m
+  [1m[35m (0.2ms)[0m  [1m[36mbegin transaction[0m
+  [1m[35m (0.1ms)[0m  [1m[31mrollback transaction[0m
+  [1m[35m (0.1ms)[0m  [1m[36mbegin transaction[0m
+  [1m[35m (0.1ms)[0m  [1m[35mSAVEPOINT active_record_1[0m
+  [1m[35mSQL (0.4ms)[0m  [1m[32mINSERT INTO "companies" ("name", "plan_level", "created_at", "updated_at") VALUES (?, ?, ?, ?)[0m  [["name", "some company"], ["plan_level", "custom"], ["created_at", "2017-10-27 16:21:13.634788"], ["updated_at", "2017-10-27 16:21:13.634788"]]
+  [1m[35m (0.1ms)[0m  [1m[35mRELEASE SAVEPOINT active_record_1[0m
+  [1m[35m (0.4ms)[0m  [1m[31mrollback transaction[0m
+  [1m[35m (0.1ms)[0m  [1m[36mbegin transaction[0m
+  [1m[35m (0.1ms)[0m  [1m[35mSAVEPOINT active_record_1[0m
+  [1m[35mSQL (0.4ms)[0m  [1m[32mINSERT INTO "companies" ("name", "plan_level", "created_at", "updated_at") VALUES (?, ?, ?, ?)[0m  [["name", "some company"], ["plan_level", "custom"], ["created_at", "2017-10-27 16:21:13.639586"], ["updated_at", "2017-10-27 16:21:13.639586"]]
+  [1m[35m (0.1ms)[0m  [1m[35mRELEASE SAVEPOINT active_record_1[0m
+  [1m[35m (0.4ms)[0m  [1m[31mrollback transaction[0m
+  [1m[35m (0.1ms)[0m  [1m[36mbegin transaction[0m
+  [1m[35m (0.1ms)[0m  [1m[35mSAVEPOINT active_record_1[0m
+  [1m[35mSQL (0.4ms)[0m  [1m[32mINSERT INTO "companies" ("name", "plan_level", "created_at", "updated_at") VALUES (?, ?, ?, ?)[0m  [["name", "some company"], ["plan_level", "custom"], ["created_at", "2017-10-27 16:21:13.644327"], ["updated_at", "2017-10-27 16:21:13.644327"]]
+  [1m[35m (0.1ms)[0m  [1m[35mRELEASE SAVEPOINT active_record_1[0m
+  [1m[35m (0.5ms)[0m  [1m[31mrollback transaction[0m
+  [1m[35m (0.1ms)[0m  [1m[36mbegin transaction[0m
+  [1m[35m (0.1ms)[0m  [1m[35mSAVEPOINT active_record_1[0m
+  [1m[35mSQL (0.4ms)[0m  [1m[32mINSERT INTO "companies" ("name", "plan_level", "created_at", "updated_at") VALUES (?, ?, ?, ?)[0m  [["name", "some company"], ["plan_level", "custom"], ["created_at", "2017-10-27 16:21:13.649306"], ["updated_at", "2017-10-27 16:21:13.649306"]]
+  [1m[35m (0.1ms)[0m  [1m[35mRELEASE SAVEPOINT active_record_1[0m
+  [1m[35m (0.5ms)[0m  [1m[31mrollback transaction[0m
+  [1m[35m (0.2ms)[0m  [1m[34mSELECT "schema_migrations"."version" FROM "schema_migrations" ORDER BY "schema_migrations"."version" ASC[0m
+  [1m[35m (0.1ms)[0m  [1m[36mbegin transaction[0m
+  [1m[35m (0.1ms)[0m  [1m[31mrollback transaction[0m
+  [1m[35m (0.1ms)[0m  [1m[36mbegin transaction[0m
+  [1m[35m (0.1ms)[0m  [1m[31mrollback transaction[0m
+  [1m[35m (0.1ms)[0m  [1m[36mbegin transaction[0m
+  [1m[35m (0.0ms)[0m  [1m[31mrollback transaction[0m
+  [1m[35m (0.1ms)[0m  [1m[36mbegin transaction[0m
+  [1m[35m (0.1ms)[0m  [1m[31mrollback transaction[0m
+  [1m[35m (0.1ms)[0m  [1m[36mbegin transaction[0m
+  [1m[35m (0.1ms)[0m  [1m[31mrollback transaction[0m
+  [1m[35m (0.1ms)[0m  [1m[36mbegin transaction[0m
+  [1m[35m (0.1ms)[0m  [1m[31mrollback transaction[0m
+  [1m[35m (0.1ms)[0m  [1m[36mbegin transaction[0m
+  [1m[35m (0.1ms)[0m  [1m[31mrollback transaction[0m
+  [1m[35m (0.1ms)[0m  [1m[36mbegin transaction[0m
+  [1m[35m (0.1ms)[0m  [1m[35mSAVEPOINT active_record_1[0m
+  [1m[35mSQL (0.7ms)[0m  [1m[32mINSERT INTO "companies" ("name", "plan_level", "created_at", "updated_at") VALUES (?, ?, ?, ?)[0m  [["name", "a valid name"], ["plan_level", "custom"], ["created_at", "2017-10-27 16:22:55.829604"], ["updated_at", "2017-10-27 16:22:55.829604"]]
+  [1m[35m (0.1ms)[0m  [1m[35mRELEASE SAVEPOINT active_record_1[0m
+  [1m[35m (0.5ms)[0m  [1m[31mrollback transaction[0m
+  [1m[35m (0.1ms)[0m  [1m[36mbegin transaction[0m
+  [1m[35m (0.3ms)[0m  [1m[35mSAVEPOINT active_record_1[0m
+  [1m[35mSQL (0.4ms)[0m  [1m[32mINSERT INTO "companies" ("name", "plan_level", "created_at", "updated_at") VALUES (?, ?, ?, ?)[0m  [["name", "a valid name"], ["plan_level", "custom"], ["created_at", "2017-10-27 16:22:55.835930"], ["updated_at", "2017-10-27 16:22:55.835930"]]
+  [1m[35m (0.2ms)[0m  [1m[35mRELEASE SAVEPOINT active_record_1[0m
+  [1m[35m (0.4ms)[0m  [1m[31mrollback transaction[0m
+  [1m[35m (0.1ms)[0m  [1m[36mbegin transaction[0m
+  [1m[35m (0.1ms)[0m  [1m[35mSAVEPOINT active_record_1[0m
+  [1m[35mSQL (0.4ms)[0m  [1m[32mINSERT INTO "companies" ("name", "plan_level", "created_at", "updated_at") VALUES (?, ?, ?, ?)[0m  [["name", "some company"], ["plan_level", "custom"], ["created_at", "2017-10-27 16:22:55.840557"], ["updated_at", "2017-10-27 16:22:55.840557"]]
+  [1m[35m (0.1ms)[0m  [1m[35mRELEASE SAVEPOINT active_record_1[0m
+  [1m[35m (0.2ms)[0m  [1m[35mSAVEPOINT active_record_1[0m
+  [1m[35mSQL (0.6ms)[0m  [1m[32mINSERT INTO "lessons" ("name", "company_id", "created_at", "updated_at", "active") VALUES (?, ?, ?, ?, ?)[0m  [["name", "alesson"], ["company_id", 1], ["created_at", "2017-10-27 16:22:55.862688"], ["updated_at", "2017-10-27 16:22:55.862688"], ["active", "t"]]
+  [1m[35m (0.2ms)[0m  [1m[35mRELEASE SAVEPOINT active_record_1[0m
+  [1m[35m (0.5ms)[0m  [1m[31mrollback transaction[0m
+  [1m[35m (0.1ms)[0m  [1m[36mbegin transaction[0m
+  [1m[35m (0.0ms)[0m  [1m[31mrollback transaction[0m
+  [1m[35m (0.1ms)[0m  [1m[36mbegin transaction[0m
+  [1m[35m (0.1ms)[0m  [1m[35mSAVEPOINT active_record_1[0m
+  [1m[35mSQL (0.4ms)[0m  [1m[32mINSERT INTO "companies" ("name", "plan_level", "created_at", "updated_at") VALUES (?, ?, ?, ?)[0m  [["name", "some company"], ["plan_level", "custom"], ["created_at", "2017-10-27 16:22:55.873167"], ["updated_at", "2017-10-27 16:22:55.873167"]]
+  [1m[35m (0.1ms)[0m  [1m[35mRELEASE SAVEPOINT active_record_1[0m
+  [1m[35m (0.4ms)[0m  [1m[31mrollback transaction[0m
+  [1m[35m (0.1ms)[0m  [1m[36mbegin transaction[0m
+  [1m[35m (0.1ms)[0m  [1m[35mSAVEPOINT active_record_1[0m
+  [1m[35mSQL (0.4ms)[0m  [1m[32mINSERT INTO "companies" ("name", "plan_level", "created_at", "updated_at") VALUES (?, ?, ?, ?)[0m  [["name", "some company"], ["plan_level", "custom"], ["created_at", "2017-10-27 16:22:55.878416"], ["updated_at", "2017-10-27 16:22:55.878416"]]
+  [1m[35m (0.1ms)[0m  [1m[35mRELEASE SAVEPOINT active_record_1[0m
+  [1m[35m (0.5ms)[0m  [1m[31mrollback transaction[0m
+  [1m[35m (0.1ms)[0m  [1m[36mbegin transaction[0m
+  [1m[35m (0.1ms)[0m  [1m[35mSAVEPOINT active_record_1[0m
+  [1m[35mSQL (0.8ms)[0m  [1m[32mINSERT INTO "companies" ("name", "plan_level", "created_at", "updated_at") VALUES (?, ?, ?, ?)[0m  [["name", "some company"], ["plan_level", "custom"], ["created_at", "2017-10-27 16:22:55.883927"], ["updated_at", "2017-10-27 16:22:55.883927"]]
+  [1m[35m (0.1ms)[0m  [1m[35mRELEASE SAVEPOINT active_record_1[0m
+  [1m[35m (0.4ms)[0m  [1m[31mrollback transaction[0m
+  [1m[35m (0.1ms)[0m  [1m[36mbegin transaction[0m
+  [1m[35m (0.1ms)[0m  [1m[35mSAVEPOINT active_record_1[0m
+  [1m[35mSQL (0.4ms)[0m  [1m[32mINSERT INTO "companies" ("name", "plan_level", "created_at", "updated_at") VALUES (?, ?, ?, ?)[0m  [["name", "some company"], ["plan_level", "custom"], ["created_at", "2017-10-27 16:22:55.890281"], ["updated_at", "2017-10-27 16:22:55.890281"]]
+  [1m[35m (0.1ms)[0m  [1m[35mRELEASE SAVEPOINT active_record_1[0m
+  [1m[35m (0.5ms)[0m  [1m[31mrollback transaction[0m
+  [1m[35m (0.6ms)[0m  [1m[34mSELECT "schema_migrations"."version" FROM "schema_migrations" ORDER BY "schema_migrations"."version" ASC[0m
+  [1m[35m (0.1ms)[0m  [1m[36mbegin transaction[0m
+  [1m[35m (0.1ms)[0m  [1m[35mSAVEPOINT active_record_1[0m
+  [1m[35mSQL (1.5ms)[0m  [1m[32mINSERT INTO "companies" ("name", "plan_level", "created_at", "updated_at") VALUES (?, ?, ?, ?)[0m  [["name", "some company"], ["plan_level", "custom"], ["created_at", "2017-10-27 18:52:04.270198"], ["updated_at", "2017-10-27 18:52:04.270198"]]
+  [1m[35m (0.1ms)[0m  [1m[35mRELEASE SAVEPOINT active_record_1[0m
+  [1m[35m (0.1ms)[0m  [1m[35mSAVEPOINT active_record_1[0m
+  [1m[35mSQL (0.8ms)[0m  [1m[32mINSERT INTO "lessons" ("name", "company_id", "created_at", "updated_at", "active") VALUES (?, ?, ?, ?, ?)[0m  [["name", "alesson"], ["company_id", 1], ["created_at", "2017-10-27 18:52:04.296376"], ["updated_at", "2017-10-27 18:52:04.296376"], ["active", "t"]]
+  [1m[35m (0.1ms)[0m  [1m[35mRELEASE SAVEPOINT active_record_1[0m
+  [1m[35m (0.5ms)[0m  [1m[31mrollback transaction[0m
+  [1m[35m (0.1ms)[0m  [1m[36mbegin transaction[0m
+  [1m[35m (0.1ms)[0m  [1m[31mrollback transaction[0m
+  [1m[35m (0.1ms)[0m  [1m[36mbegin transaction[0m
+  [1m[35m (0.1ms)[0m  [1m[35mSAVEPOINT active_record_1[0m
+  [1m[35mSQL (0.5ms)[0m  [1m[32mINSERT INTO "companies" ("name", "plan_level", "created_at", "updated_at") VALUES (?, ?, ?, ?)[0m  [["name", "some company"], ["plan_level", "custom"], ["created_at", "2017-10-27 18:52:05.074000"], ["updated_at", "2017-10-27 18:52:05.074000"]]
+  [1m[35m (0.1ms)[0m  [1m[35mRELEASE SAVEPOINT active_record_1[0m
+  [1m[35m (0.5ms)[0m  [1m[31mrollback transaction[0m
+  [1m[35m (0.1ms)[0m  [1m[36mbegin transaction[0m
+  [1m[35m (0.1ms)[0m  [1m[35mSAVEPOINT active_record_1[0m
+  [1m[35mSQL (0.4ms)[0m  [1m[32mINSERT INTO "companies" ("name", "plan_level", "created_at", "updated_at") VALUES (?, ?, ?, ?)[0m  [["name", "some company"], ["plan_level", "custom"], ["created_at", "2017-10-27 18:52:05.079123"], ["updated_at", "2017-10-27 18:52:05.079123"]]
+  [1m[35m (0.1ms)[0m  [1m[35mRELEASE SAVEPOINT active_record_1[0m
+  [1m[35m (0.5ms)[0m  [1m[31mrollback transaction[0m
+  [1m[35m (0.1ms)[0m  [1m[36mbegin transaction[0m
+  [1m[35m (0.1ms)[0m  [1m[35mSAVEPOINT active_record_1[0m
+  [1m[35mSQL (0.4ms)[0m  [1m[32mINSERT INTO "companies" ("name", "plan_level", "created_at", "updated_at") VALUES (?, ?, ?, ?)[0m  [["name", "some company"], ["plan_level", "custom"], ["created_at", "2017-10-27 18:52:05.084141"], ["updated_at", "2017-10-27 18:52:05.084141"]]
+  [1m[35m (0.1ms)[0m  [1m[35mRELEASE SAVEPOINT active_record_1[0m
+  [1m[35m (0.5ms)[0m  [1m[31mrollback transaction[0m
+  [1m[35m (0.1ms)[0m  [1m[36mbegin transaction[0m
+  [1m[35m (0.1ms)[0m  [1m[35mSAVEPOINT active_record_1[0m
+  [1m[35mSQL (0.5ms)[0m  [1m[32mINSERT INTO "companies" ("name", "plan_level", "created_at", "updated_at") VALUES (?, ?, ?, ?)[0m  [["name", "some company"], ["plan_level", "custom"], ["created_at", "2017-10-27 18:52:05.089553"], ["updated_at", "2017-10-27 18:52:05.089553"]]
+  [1m[35m (0.1ms)[0m  [1m[35mRELEASE SAVEPOINT active_record_1[0m
+  [1m[35m (0.6ms)[0m  [1m[31mrollback transaction[0m
+  [1m[35m (0.7ms)[0m  [1m[34mSELECT "schema_migrations"."version" FROM "schema_migrations" ORDER BY "schema_migrations"."version" ASC[0m
+  [1m[35m (0.1ms)[0m  [1m[36mbegin transaction[0m
+Processing by CompaniesController#index as HTML
+  [1m[36mCompany Load (0.6ms)[0m  [1m[34mSELECT "companies".* FROM "companies"[0m
+Completed 200 OK in 5ms (Views: 1.6ms | ActiveRecord: 0.8ms)
+  [1m[35m (0.1ms)[0m  [1m[31mrollback transaction[0m
+  [1m[35m (0.6ms)[0m  [1m[34mSELECT "schema_migrations"."version" FROM "schema_migrations" ORDER BY "schema_migrations"."version" ASC[0m
+  [1m[35m (0.1ms)[0m  [1m[36mbegin transaction[0m
+Processing by CompaniesController#index as HTML
+  [1m[36mCompany Load (0.5ms)[0m  [1m[34mSELECT "companies".* FROM "companies"[0m
+Completed 200 OK in 3ms (Views: 1.5ms | ActiveRecord: 0.7ms)
+  [1m[35m (0.1ms)[0m  [1m[31mrollback transaction[0m
+  [1m[35m (0.1ms)[0m  [1m[36mbegin transaction[0m
+  [1m[35m (0.1ms)[0m  [1m[31mrollback transaction[0m
+  [1m[35m (0.1ms)[0m  [1m[36mbegin transaction[0m
+  [1m[35m (0.0ms)[0m  [1m[31mrollback transaction[0m
+  [1m[35m (0.1ms)[0m  [1m[36mbegin transaction[0m
+  [1m[35m (0.0ms)[0m  [1m[31mrollback transaction[0m
+  [1m[35m (0.1ms)[0m  [1m[36mbegin transaction[0m
+  [1m[35m (0.0ms)[0m  [1m[31mrollback transaction[0m
+  [1m[35m (0.1ms)[0m  [1m[36mbegin transaction[0m
+  [1m[35m (0.0ms)[0m  [1m[31mrollback transaction[0m
+  [1m[35m (0.1ms)[0m  [1m[36mbegin transaction[0m
+  [1m[35m (0.1ms)[0m  [1m[31mrollback transaction[0m
+  [1m[35m (0.0ms)[0m  [1m[36mbegin transaction[0m
+  [1m[35m (0.0ms)[0m  [1m[31mrollback transaction[0m
+  [1m[35m (0.1ms)[0m  [1m[36mbegin transaction[0m
+  [1m[35m (0.1ms)[0m  [1m[35mSAVEPOINT active_record_1[0m
+  [1m[35mSQL (1.0ms)[0m  [1m[32mINSERT INTO "companies" ("name", "plan_level", "created_at", "updated_at") VALUES (?, ?, ?, ?)[0m  [["name", "a valid name"], ["plan_level", "custom"], ["created_at", "2017-10-27 18:53:47.468602"], ["updated_at", "2017-10-27 18:53:47.468602"]]
+  [1m[35m (0.1ms)[0m  [1m[35mRELEASE SAVEPOINT active_record_1[0m
+  [1m[35m (0.5ms)[0m  [1m[31mrollback transaction[0m
+  [1m[35m (0.1ms)[0m  [1m[36mbegin transaction[0m
+  [1m[35m (0.1ms)[0m  [1m[35mSAVEPOINT active_record_1[0m
+  [1m[35mSQL (0.5ms)[0m  [1m[32mINSERT INTO "companies" ("name", "plan_level", "created_at", "updated_at") VALUES (?, ?, ?, ?)[0m  [["name", "a valid name"], ["plan_level", "custom"], ["created_at", "2017-10-27 18:53:47.474506"], ["updated_at", "2017-10-27 18:53:47.474506"]]
+  [1m[35m (0.1ms)[0m  [1m[35mRELEASE SAVEPOINT active_record_1[0m
+  [1m[35m (0.4ms)[0m  [1m[31mrollback transaction[0m
+  [1m[35m (0.1ms)[0m  [1m[36mbegin transaction[0m
+  [1m[35m (0.1ms)[0m  [1m[35mSAVEPOINT active_record_1[0m
+  [1m[35mSQL (0.4ms)[0m  [1m[32mINSERT INTO "companies" ("name", "plan_level", "created_at", "updated_at") VALUES (?, ?, ?, ?)[0m  [["name", "some company"], ["plan_level", "custom"], ["created_at", "2017-10-27 18:53:47.480060"], ["updated_at", "2017-10-27 18:53:47.480060"]]
+  [1m[35m (0.1ms)[0m  [1m[35mRELEASE SAVEPOINT active_record_1[0m
+  [1m[35m (0.1ms)[0m  [1m[35mSAVEPOINT active_record_1[0m
+  [1m[35mSQL (0.6ms)[0m  [1m[32mINSERT INTO "lessons" ("name", "company_id", "created_at", "updated_at", "active") VALUES (?, ?, ?, ?, ?)[0m  [["name", "alesson"], ["company_id", 1], ["created_at", "2017-10-27 18:53:47.501021"], ["updated_at", "2017-10-27 18:53:47.501021"], ["active", "t"]]
+  [1m[35m (0.1ms)[0m  [1m[35mRELEASE SAVEPOINT active_record_1[0m
+  [1m[35m (0.5ms)[0m  [1m[31mrollback transaction[0m
+  [1m[35m (0.2ms)[0m  [1m[36mbegin transaction[0m
+  [1m[35m (0.1ms)[0m  [1m[31mrollback transaction[0m
+  [1m[35m (0.1ms)[0m  [1m[36mbegin transaction[0m
+  [1m[35m (0.2ms)[0m  [1m[35mSAVEPOINT active_record_1[0m
+  [1m[35mSQL (0.9ms)[0m  [1m[32mINSERT INTO "companies" ("name", "plan_level", "created_at", "updated_at") VALUES (?, ?, ?, ?)[0m  [["name", "some company"], ["plan_level", "custom"], ["created_at", "2017-10-27 18:53:47.514109"], ["updated_at", "2017-10-27 18:53:47.514109"]]
+  [1m[35m (0.1ms)[0m  [1m[35mRELEASE SAVEPOINT active_record_1[0m
+  [1m[35m (0.5ms)[0m  [1m[31mrollback transaction[0m
+  [1m[35m (0.1ms)[0m  [1m[36mbegin transaction[0m
+  [1m[35m (0.1ms)[0m  [1m[35mSAVEPOINT active_record_1[0m
+  [1m[35mSQL (0.6ms)[0m  [1m[32mINSERT INTO "companies" ("name", "plan_level", "created_at", "updated_at") VALUES (?, ?, ?, ?)[0m  [["name", "some company"], ["plan_level", "custom"], ["created_at", "2017-10-27 18:53:47.522037"], ["updated_at", "2017-10-27 18:53:47.522037"]]
+  [1m[35m (0.1ms)[0m  [1m[35mRELEASE SAVEPOINT active_record_1[0m
+  [1m[35m (0.7ms)[0m  [1m[31mrollback transaction[0m
+  [1m[35m (0.1ms)[0m  [1m[36mbegin transaction[0m
+  [1m[35m (0.1ms)[0m  [1m[35mSAVEPOINT active_record_1[0m
+  [1m[35mSQL (0.4ms)[0m  [1m[32mINSERT INTO "companies" ("name", "plan_level", "created_at", "updated_at") VALUES (?, ?, ?, ?)[0m  [["name", "some company"], ["plan_level", "custom"], ["created_at", "2017-10-27 18:53:47.529798"], ["updated_at", "2017-10-27 18:53:47.529798"]]
+  [1m[35m (0.1ms)[0m  [1m[35mRELEASE SAVEPOINT active_record_1[0m
+  [1m[35m (0.4ms)[0m  [1m[31mrollback transaction[0m
+  [1m[35m (0.1ms)[0m  [1m[36mbegin transaction[0m
+  [1m[35m (0.1ms)[0m  [1m[35mSAVEPOINT active_record_1[0m
+  [1m[35mSQL (0.4ms)[0m  [1m[32mINSERT INTO "companies" ("name", "plan_level", "created_at", "updated_at") VALUES (?, ?, ?, ?)[0m  [["name", "some company"], ["plan_level", "custom"], ["created_at", "2017-10-27 18:53:47.534569"], ["updated_at", "2017-10-27 18:53:47.534569"]]
+  [1m[35m (0.1ms)[0m  [1m[35mRELEASE SAVEPOINT active_record_1[0m
+  [1m[35m (0.4ms)[0m  [1m[31mrollback transaction[0m
+  [1m[35m (0.6ms)[0m  [1m[34mSELECT "schema_migrations"."version" FROM "schema_migrations" ORDER BY "schema_migrations"."version" ASC[0m
+  [1m[35m (0.1ms)[0m  [1m[36mbegin transaction[0m
+Processing by CompaniesController#index as HTML
+  [1m[36mCompany Load (0.5ms)[0m  [1m[34mSELECT "companies".* FROM "companies"[0m
+Completed 200 OK in 6ms (Views: 1.6ms | ActiveRecord: 0.8ms)
+  [1m[35m (0.1ms)[0m  [1m[31mrollback transaction[0m
+  [1m[35m (0.1ms)[0m  [1m[36mbegin transaction[0m
+  [1m[35m (0.1ms)[0m  [1m[35mSAVEPOINT active_record_1[0m
+  [1m[35mSQL (1.0ms)[0m  [1m[32mINSERT INTO "companies" ("name", "plan_level", "created_at", "updated_at") VALUES (?, ?, ?, ?)[0m  [["name", "a company"], ["plan_level", "custom"], ["created_at", "2017-10-27 19:26:57.617377"], ["updated_at", "2017-10-27 19:26:57.617377"]]
+  [1m[35m (0.1ms)[0m  [1m[35mRELEASE SAVEPOINT active_record_1[0m
+  [1m[35m (0.1ms)[0m  [1m[35mSAVEPOINT active_record_1[0m
+  [1m[35mSQL (0.1ms)[0m  [1m[32mINSERT INTO "companies" ("name", "plan_level", "created_at", "updated_at") VALUES (?, ?, ?, ?)[0m  [["name", "a company"], ["plan_level", "custom"], ["created_at", "2017-10-27 19:26:57.620692"], ["updated_at", "2017-10-27 19:26:57.620692"]]
+  [1m[35m (0.1ms)[0m  [1m[35mRELEASE SAVEPOINT active_record_1[0m
+Processing by CompaniesController#index as HTML
+  [1m[36mCompany Load (0.1ms)[0m  [1m[34mSELECT "companies".* FROM "companies"[0m
+Completed 200 OK in 4ms (Views: 3.4ms | ActiveRecord: 0.1ms)
+  [1m[35m (0.7ms)[0m  [1m[31mrollback transaction[0m
+  [1m[35m (0.6ms)[0m  [1m[34mSELECT "schema_migrations"."version" FROM "schema_migrations" ORDER BY "schema_migrations"."version" ASC[0m
+  [1m[35m (0.1ms)[0m  [1m[36mbegin transaction[0m
+Processing by CompaniesController#index as HTML
+  [1m[36mCompany Load (0.5ms)[0m  [1m[34mSELECT "companies".* FROM "companies"[0m
+Completed 200 OK in 6ms (Views: 1.7ms | ActiveRecord: 0.8ms)
+  [1m[35m (0.1ms)[0m  [1m[31mrollback transaction[0m
+  [1m[35m (0.1ms)[0m  [1m[36mbegin transaction[0m
+  [1m[35m (0.1ms)[0m  [1m[35mSAVEPOINT active_record_1[0m
+  [1m[35mSQL (0.9ms)[0m  [1m[32mINSERT INTO "companies" ("name", "plan_level", "created_at", "updated_at") VALUES (?, ?, ?, ?)[0m  [["name", "a company"], ["plan_level", "custom"], ["created_at", "2017-10-27 19:27:48.665883"], ["updated_at", "2017-10-27 19:27:48.665883"]]
+  [1m[35m (0.1ms)[0m  [1m[35mRELEASE SAVEPOINT active_record_1[0m
+  [1m[35m (0.1ms)[0m  [1m[35mSAVEPOINT active_record_1[0m
+  [1m[35mSQL (0.1ms)[0m  [1m[32mINSERT INTO "companies" ("name", "plan_level", "created_at", "updated_at") VALUES (?, ?, ?, ?)[0m  [["name", "a company"], ["plan_level", "custom"], ["created_at", "2017-10-27 19:27:48.669155"], ["updated_at", "2017-10-27 19:27:48.669155"]]
+  [1m[35m (0.1ms)[0m  [1m[35mRELEASE SAVEPOINT active_record_1[0m
+Processing by CompaniesController#index as HTML
+  [1m[36mCompany Load (0.1ms)[0m  [1m[34mSELECT "companies".* FROM "companies"[0m
+Completed 200 OK in 3ms (Views: 3.0ms | ActiveRecord: 0.1ms)
+  [1m[35m (0.5ms)[0m  [1m[31mrollback transaction[0m
+  [1m[35m (0.6ms)[0m  [1m[34mSELECT "schema_migrations"."version" FROM "schema_migrations" ORDER BY "schema_migrations"."version" ASC[0m
+  [1m[35m (0.1ms)[0m  [1m[36mbegin transaction[0m
+Processing by CompaniesController#index as HTML
+  [1m[36mCompany Load (0.6ms)[0m  [1m[34mSELECT "companies".* FROM "companies"[0m
+Completed 200 OK in 3ms (Views: 1.8ms | ActiveRecord: 0.8ms)
+  [1m[35m (0.1ms)[0m  [1m[31mrollback transaction[0m
+  [1m[35m (0.1ms)[0m  [1m[36mbegin transaction[0m
+  [1m[35m (0.1ms)[0m  [1m[35mSAVEPOINT active_record_1[0m
+  [1m[35mSQL (1.1ms)[0m  [1m[32mINSERT INTO "companies" ("name", "plan_level", "created_at", "updated_at") VALUES (?, ?, ?, ?)[0m  [["name", "a company"], ["plan_level", "custom"], ["created_at", "2017-10-27 19:27:57.779153"], ["updated_at", "2017-10-27 19:27:57.779153"]]
+  [1m[35m (0.1ms)[0m  [1m[35mRELEASE SAVEPOINT active_record_1[0m
+  [1m[35m (0.1ms)[0m  [1m[35mSAVEPOINT active_record_1[0m
+  [1m[35mSQL (0.2ms)[0m  [1m[32mINSERT INTO "companies" ("name", "plan_level", "created_at", "updated_at") VALUES (?, ?, ?, ?)[0m  [["name", "a company"], ["plan_level", "custom"], ["created_at", "2017-10-27 19:27:57.783001"], ["updated_at", "2017-10-27 19:27:57.783001"]]
+  [1m[35m (0.1ms)[0m  [1m[35mRELEASE SAVEPOINT active_record_1[0m
+Processing by CompaniesController#index as HTML
+  [1m[36mCompany Load (0.1ms)[0m  [1m[34mSELECT "companies".* FROM "companies"[0m
+Completed 200 OK in 4ms (Views: 3.3ms | ActiveRecord: 0.1ms)
+  [1m[35m (0.5ms)[0m  [1m[31mrollback transaction[0m
+  [1m[35m (0.1ms)[0m  [1m[36mbegin transaction[0m
+  [1m[35m (0.1ms)[0m  [1m[31mrollback transaction[0m
+  [1m[35m (0.1ms)[0m  [1m[36mbegin transaction[0m
+  [1m[35m (0.0ms)[0m  [1m[31mrollback transaction[0m
+  [1m[35m (0.1ms)[0m  [1m[36mbegin transaction[0m
+  [1m[35m (0.0ms)[0m  [1m[31mrollback transaction[0m
+  [1m[35m (0.1ms)[0m  [1m[36mbegin transaction[0m
+  [1m[35m (0.1ms)[0m  [1m[31mrollback transaction[0m
+  [1m[35m (0.1ms)[0m  [1m[36mbegin transaction[0m
+  [1m[35m (0.0ms)[0m  [1m[31mrollback transaction[0m
+  [1m[35m (0.1ms)[0m  [1m[36mbegin transaction[0m
+  [1m[35m (0.0ms)[0m  [1m[31mrollback transaction[0m
+  [1m[35m (0.1ms)[0m  [1m[36mbegin transaction[0m
+  [1m[35m (0.1ms)[0m  [1m[31mrollback transaction[0m
+  [1m[35m (0.1ms)[0m  [1m[36mbegin transaction[0m
+  [1m[35m (0.1ms)[0m  [1m[35mSAVEPOINT active_record_1[0m
+  [1m[35mSQL (0.4ms)[0m  [1m[32mINSERT INTO "companies" ("name", "plan_level", "created_at", "updated_at") VALUES (?, ?, ?, ?)[0m  [["name", "a valid name"], ["plan_level", "custom"], ["created_at", "2017-10-27 19:27:58.556683"], ["updated_at", "2017-10-27 19:27:58.556683"]]
+  [1m[35m (0.1ms)[0m  [1m[35mRELEASE SAVEPOINT active_record_1[0m
+  [1m[35m (0.5ms)[0m  [1m[31mrollback transaction[0m
+  [1m[35m (0.1ms)[0m  [1m[36mbegin transaction[0m
+  [1m[35m (0.1ms)[0m  [1m[35mSAVEPOINT active_record_1[0m
+  [1m[35mSQL (0.5ms)[0m  [1m[32mINSERT INTO "companies" ("name", "plan_level", "created_at", "updated_at") VALUES (?, ?, ?, ?)[0m  [["name", "a valid name"], ["plan_level", "custom"], ["created_at", "2017-10-27 19:27:58.561160"], ["updated_at", "2017-10-27 19:27:58.561160"]]
+  [1m[35m (0.1ms)[0m  [1m[35mRELEASE SAVEPOINT active_record_1[0m
+  [1m[35m (0.5ms)[0m  [1m[31mrollback transaction[0m
+  [1m[35m (0.2ms)[0m  [1m[36mbegin transaction[0m
+  [1m[35m (0.1ms)[0m  [1m[35mSAVEPOINT active_record_1[0m
+  [1m[35mSQL (0.4ms)[0m  [1m[32mINSERT INTO "companies" ("name", "plan_level", "created_at", "updated_at") VALUES (?, ?, ?, ?)[0m  [["name", "some company"], ["plan_level", "custom"], ["created_at", "2017-10-27 19:27:58.568770"], ["updated_at", "2017-10-27 19:27:58.568770"]]
+  [1m[35m (0.1ms)[0m  [1m[35mRELEASE SAVEPOINT active_record_1[0m
+  [1m[35m (0.3ms)[0m  [1m[35mSAVEPOINT active_record_1[0m
+  [1m[35mSQL (0.6ms)[0m  [1m[32mINSERT INTO "lessons" ("name", "company_id", "created_at", "updated_at", "active") VALUES (?, ?, ?, ?, ?)[0m  [["name", "alesson"], ["company_id", 1], ["created_at", "2017-10-27 19:27:58.590740"], ["updated_at", "2017-10-27 19:27:58.590740"], ["active", "t"]]
+  [1m[35m (0.1ms)[0m  [1m[35mRELEASE SAVEPOINT active_record_1[0m
+  [1m[35m (0.5ms)[0m  [1m[31mrollback transaction[0m
+  [1m[35m (0.1ms)[0m  [1m[36mbegin transaction[0m
+  [1m[35m (0.1ms)[0m  [1m[31mrollback transaction[0m
+  [1m[35m (0.1ms)[0m  [1m[36mbegin transaction[0m
+  [1m[35m (0.1ms)[0m  [1m[35mSAVEPOINT active_record_1[0m
+  [1m[35mSQL (0.4ms)[0m  [1m[32mINSERT INTO "companies" ("name", "plan_level", "created_at", "updated_at") VALUES (?, ?, ?, ?)[0m  [["name", "some company"], ["plan_level", "custom"], ["created_at", "2017-10-27 19:27:58.601168"], ["updated_at", "2017-10-27 19:27:58.601168"]]
+  [1m[35m (0.1ms)[0m  [1m[35mRELEASE SAVEPOINT active_record_1[0m
+  [1m[35m (0.4ms)[0m  [1m[31mrollback transaction[0m
+  [1m[35m (0.1ms)[0m  [1m[36mbegin transaction[0m
+  [1m[35m (0.1ms)[0m  [1m[35mSAVEPOINT active_record_1[0m
+  [1m[35mSQL (0.4ms)[0m  [1m[32mINSERT INTO "companies" ("name", "plan_level", "created_at", "updated_at") VALUES (?, ?, ?, ?)[0m  [["name", "some company"], ["plan_level", "custom"], ["created_at", "2017-10-27 19:27:58.606752"], ["updated_at", "2017-10-27 19:27:58.606752"]]
+  [1m[35m (0.1ms)[0m  [1m[35mRELEASE SAVEPOINT active_record_1[0m
+  [1m[35m (0.5ms)[0m  [1m[31mrollback transaction[0m
+  [1m[35m (0.1ms)[0m  [1m[36mbegin transaction[0m
+  [1m[35m (0.1ms)[0m  [1m[35mSAVEPOINT active_record_1[0m
+  [1m[35mSQL (0.8ms)[0m  [1m[32mINSERT INTO "companies" ("name", "plan_level", "created_at", "updated_at") VALUES (?, ?, ?, ?)[0m  [["name", "some company"], ["plan_level", "custom"], ["created_at", "2017-10-27 19:27:58.611924"], ["updated_at", "2017-10-27 19:27:58.611924"]]
+  [1m[35m (0.1ms)[0m  [1m[35mRELEASE SAVEPOINT active_record_1[0m
+  [1m[35m (0.4ms)[0m  [1m[31mrollback transaction[0m
+  [1m[35m (0.2ms)[0m  [1m[36mbegin transaction[0m
+  [1m[35m (0.1ms)[0m  [1m[35mSAVEPOINT active_record_1[0m
+  [1m[35mSQL (0.4ms)[0m  [1m[32mINSERT INTO "companies" ("name", "plan_level", "created_at", "updated_at") VALUES (?, ?, ?, ?)[0m  [["name", "some company"], ["plan_level", "custom"], ["created_at", "2017-10-27 19:27:58.620039"], ["updated_at", "2017-10-27 19:27:58.620039"]]
+  [1m[35m (0.1ms)[0m  [1m[35mRELEASE SAVEPOINT active_record_1[0m
+  [1m[35m (0.5ms)[0m  [1m[31mrollback transaction[0m
+  [1m[35m (0.2ms)[0m  [1m[34mSELECT "schema_migrations"."version" FROM "schema_migrations" ORDER BY "schema_migrations"."version" ASC[0m
+  [1m[35m (0.1ms)[0m  [1m[36mbegin transaction[0m
+Processing by CompaniesController#index as HTML
+  [1m[36mCompany Load (0.2ms)[0m  [1m[34mSELECT "companies".* FROM "companies"[0m
+Completed 200 OK in 5ms (Views: 1.5ms | ActiveRecord: 0.4ms)
+  [1m[35m (0.1ms)[0m  [1m[31mrollback transaction[0m
+  [1m[35m (0.1ms)[0m  [1m[36mbegin transaction[0m
+  [1m[35m (0.1ms)[0m  [1m[35mSAVEPOINT active_record_1[0m
+  [1m[35mSQL (0.9ms)[0m  [1m[32mINSERT INTO "companies" ("name", "plan_level", "created_at", "updated_at") VALUES (?, ?, ?, ?)[0m  [["name", "a company"], ["plan_level", "custom"], ["created_at", "2017-10-27 19:28:06.490708"], ["updated_at", "2017-10-27 19:28:06.490708"]]
+  [1m[35m (0.1ms)[0m  [1m[35mRELEASE SAVEPOINT active_record_1[0m
+  [1m[35m (0.1ms)[0m  [1m[35mSAVEPOINT active_record_1[0m
+  [1m[35mSQL (0.2ms)[0m  [1m[32mINSERT INTO "companies" ("name", "plan_level", "created_at", "updated_at") VALUES (?, ?, ?, ?)[0m  [["name", "a company"], ["plan_level", "custom"], ["created_at", "2017-10-27 19:28:06.495083"], ["updated_at", "2017-10-27 19:28:06.495083"]]
+  [1m[35m (0.1ms)[0m  [1m[35mRELEASE SAVEPOINT active_record_1[0m
+Processing by CompaniesController#index as HTML
+  [1m[36mCompany Load (0.1ms)[0m  [1m[34mSELECT "companies".* FROM "companies"[0m
+Completed 200 OK in 6ms (Views: 4.9ms | ActiveRecord: 0.1ms)
+  [1m[35m (6.9ms)[0m  [1m[31mrollback transaction[0m
+  [1m[35m (0.2ms)[0m  [1m[34mSELECT "schema_migrations"."version" FROM "schema_migrations" ORDER BY "schema_migrations"."version" ASC[0m
+  [1m[35m (0.1ms)[0m  [1m[36mbegin transaction[0m
+Processing by CompaniesController#index as HTML
+  [1m[36mCompany Load (0.2ms)[0m  [1m[34mSELECT "companies".* FROM "companies"[0m
+Completed 200 OK in 5ms (Views: 1.5ms | ActiveRecord: 0.4ms)
+  [1m[35m (0.1ms)[0m  [1m[31mrollback transaction[0m
+  [1m[35m (0.1ms)[0m  [1m[36mbegin transaction[0m
+  [1m[35m (0.3ms)[0m  [1m[35mSAVEPOINT active_record_1[0m
+  [1m[35mSQL (0.6ms)[0m  [1m[32mINSERT INTO "companies" ("name", "plan_level", "created_at", "updated_at") VALUES (?, ?, ?, ?)[0m  [["name", "a company"], ["plan_level", "custom"], ["created_at", "2017-10-27 19:30:18.727127"], ["updated_at", "2017-10-27 19:30:18.727127"]]
+  [1m[35m (0.1ms)[0m  [1m[35mRELEASE SAVEPOINT active_record_1[0m
+  [1m[35m (0.1ms)[0m  [1m[35mSAVEPOINT active_record_1[0m
+  [1m[35mSQL (0.2ms)[0m  [1m[32mINSERT INTO "companies" ("name", "plan_level", "created_at", "updated_at") VALUES (?, ?, ?, ?)[0m  [["name", "a company"], ["plan_level", "custom"], ["created_at", "2017-10-27 19:30:18.731712"], ["updated_at", "2017-10-27 19:30:18.731712"]]
+  [1m[35m (0.1ms)[0m  [1m[35mRELEASE SAVEPOINT active_record_1[0m
+Processing by CompaniesController#index as HTML
+  [1m[36mCompany Load (0.1ms)[0m  [1m[34mSELECT "companies".* FROM "companies"[0m
+Completed 200 OK in 4ms (Views: 3.3ms | ActiveRecord: 0.1ms)
+  [1m[35m (2.8ms)[0m  [1m[31mrollback transaction[0m
+  [1m[35m (0.4ms)[0m  [1m[34mSELECT "schema_migrations"."version" FROM "schema_migrations" ORDER BY "schema_migrations"."version" ASC[0m
+  [1m[35m (0.1ms)[0m  [1m[36mbegin transaction[0m
+Processing by CompaniesController#index as HTML
+  [1m[36mCompany Load (0.2ms)[0m  [1m[34mSELECT "companies".* FROM "companies"[0m
+Completed 200 OK in 5ms (Views: 1.6ms | ActiveRecord: 0.5ms)
+  [1m[35m (0.1ms)[0m  [1m[31mrollback transaction[0m
+  [1m[35m (0.1ms)[0m  [1m[36mbegin transaction[0m
+  [1m[35m (0.1ms)[0m  [1m[35mSAVEPOINT active_record_1[0m
+  [1m[35mSQL (0.5ms)[0m  [1m[32mINSERT INTO "companies" ("name", "plan_level", "created_at", "updated_at") VALUES (?, ?, ?, ?)[0m  [["name", "company749"], ["plan_level", "custom"], ["created_at", "2017-10-27 19:42:55.998458"], ["updated_at", "2017-10-27 19:42:55.998458"]]
+  [1m[35m (0.1ms)[0m  [1m[35mRELEASE SAVEPOINT active_record_1[0m
+  [1m[35m (0.0ms)[0m  [1m[35mSAVEPOINT active_record_1[0m
+  [1m[35mSQL (0.1ms)[0m  [1m[32mINSERT INTO "companies" ("name", "plan_level", "created_at", "updated_at") VALUES (?, ?, ?, ?)[0m  [["name", "company168"], ["plan_level", "custom"], ["created_at", "2017-10-27 19:42:56.001207"], ["updated_at", "2017-10-27 19:42:56.001207"]]
+  [1m[35m (0.1ms)[0m  [1m[35mRELEASE SAVEPOINT active_record_1[0m
+  [1m[35m (0.0ms)[0m  [1m[35mSAVEPOINT active_record_1[0m
+  [1m[35mSQL (0.1ms)[0m  [1m[32mINSERT INTO "companies" ("name", "plan_level", "created_at", "updated_at") VALUES (?, ?, ?, ?)[0m  [["name", "company211"], ["plan_level", "custom"], ["created_at", "2017-10-27 19:42:56.002948"], ["updated_at", "2017-10-27 19:42:56.002948"]]
+  [1m[35m (0.1ms)[0m  [1m[35mRELEASE SAVEPOINT active_record_1[0m
+  [1m[35m (0.0ms)[0m  [1m[35mSAVEPOINT active_record_1[0m
+  [1m[35mSQL (0.1ms)[0m  [1m[32mINSERT INTO "companies" ("name", "plan_level", "created_at", "updated_at") VALUES (?, ?, ?, ?)[0m  [["name", "company224"], ["plan_level", "custom"], ["created_at", "2017-10-27 19:42:56.004775"], ["updated_at", "2017-10-27 19:42:56.004775"]]
+  [1m[35m (0.1ms)[0m  [1m[35mRELEASE SAVEPOINT active_record_1[0m
+  [1m[35m (0.0ms)[0m  [1m[35mSAVEPOINT active_record_1[0m
+  [1m[35mSQL (0.2ms)[0m  [1m[32mINSERT INTO "companies" ("name", "plan_level", "created_at", "updated_at") VALUES (?, ?, ?, ?)[0m  [["name", "company15"], ["plan_level", "custom"], ["created_at", "2017-10-27 19:42:56.006444"], ["updated_at", "2017-10-27 19:42:56.006444"]]
+  [1m[35m (0.1ms)[0m  [1m[35mRELEASE SAVEPOINT active_record_1[0m
+  [1m[35m (0.1ms)[0m  [1m[35mSAVEPOINT active_record_1[0m
+  [1m[35mSQL (0.6ms)[0m  [1m[32mINSERT INTO "companies" ("name", "plan_level", "created_at", "updated_at") VALUES (?, ?, ?, ?)[0m  [["name", "company97"], ["plan_level", "custom"], ["created_at", "2017-10-27 19:42:56.008371"], ["updated_at", "2017-10-27 19:42:56.008371"]]
+  [1m[35m (0.1ms)[0m  [1m[35mRELEASE SAVEPOINT active_record_1[0m
+  [1m[35m (0.2ms)[0m  [1m[35mSAVEPOINT active_record_1[0m
+  [1m[35mSQL (0.1ms)[0m  [1m[32mINSERT INTO "companies" ("name", "plan_level", "created_at", "updated_at") VALUES (?, ?, ?, ?)[0m  [["name", "company935"], ["plan_level", "custom"], ["created_at", "2017-10-27 19:42:56.013362"], ["updated_at", "2017-10-27 19:42:56.013362"]]
+  [1m[35m (0.1ms)[0m  [1m[35mRELEASE SAVEPOINT active_record_1[0m
+  [1m[35m (0.1ms)[0m  [1m[35mSAVEPOINT active_record_1[0m
+  [1m[35mSQL (0.1ms)[0m  [1m[32mINSERT INTO "companies" ("name", "plan_level", "created_at", "updated_at") VALUES (?, ?, ?, ?)[0m  [["name", "company687"], ["plan_level", "custom"], ["created_at", "2017-10-27 19:42:56.015625"], ["updated_at", "2017-10-27 19:42:56.015625"]]
+  [1m[35m (0.1ms)[0m  [1m[35mRELEASE SAVEPOINT active_record_1[0m
+  [1m[35m (0.1ms)[0m  [1m[35mSAVEPOINT active_record_1[0m
+  [1m[35mSQL (0.1ms)[0m  [1m[32mINSERT INTO "companies" ("name", "plan_level", "created_at", "updated_at") VALUES (?, ?, ?, ?)[0m  [["name", "company790"], ["plan_level", "custom"], ["created_at", "2017-10-27 19:42:56.017517"], ["updated_at", "2017-10-27 19:42:56.017517"]]
+  [1m[35m (0.1ms)[0m  [1m[35mRELEASE SAVEPOINT active_record_1[0m
+  [1m[35m (0.1ms)[0m  [1m[35mSAVEPOINT active_record_1[0m
+  [1m[35mSQL (0.1ms)[0m  [1m[32mINSERT INTO "companies" ("name", "plan_level", "created_at", "updated_at") VALUES (?, ?, ?, ?)[0m  [["name", "company602"], ["plan_level", "custom"], ["created_at", "2017-10-27 19:42:56.019212"], ["updated_at", "2017-10-27 19:42:56.019212"]]
+  [1m[35m (0.1ms)[0m  [1m[35mRELEASE SAVEPOINT active_record_1[0m
+Processing by CompaniesController#index as HTML
+  [1m[36mCompany Load (0.1ms)[0m  [1m[34mSELECT "companies".* FROM "companies"[0m
+Completed 200 OK in 5ms (Views: 5.1ms | ActiveRecord: 0.1ms)
+  [1m[35m (0.5ms)[0m  [1m[31mrollback transaction[0m
+  [1m[35m (0.2ms)[0m  [1m[34mSELECT "schema_migrations"."version" FROM "schema_migrations" ORDER BY "schema_migrations"."version" ASC[0m
+  [1m[35m (0.1ms)[0m  [1m[36mbegin transaction[0m
+Processing by CompaniesController#index as HTML
+  [1m[36mCompany Load (0.2ms)[0m  [1m[34mSELECT "companies".* FROM "companies"[0m
+Completed 200 OK in 6ms (Views: 1.9ms | ActiveRecord: 0.5ms)
+  [1m[35m (0.1ms)[0m  [1m[31mrollback transaction[0m
+  [1m[35m (0.1ms)[0m  [1m[36mbegin transaction[0m
+  [1m[35m (0.1ms)[0m  [1m[35mSAVEPOINT active_record_1[0m
+  [1m[35mSQL (0.6ms)[0m  [1m[32mINSERT INTO "companies" ("name", "plan_level", "created_at", "updated_at") VALUES (?, ?, ?, ?)[0m  [["name", "company242"], ["plan_level", "custom"], ["created_at", "2017-10-27 19:43:02.003854"], ["updated_at", "2017-10-27 19:43:02.003854"]]
+  [1m[35m (0.1ms)[0m  [1m[35mRELEASE SAVEPOINT active_record_1[0m
+  [1m[35m (0.1ms)[0m  [1m[35mSAVEPOINT active_record_1[0m
+  [1m[35mSQL (0.1ms)[0m  [1m[32mINSERT INTO "companies" ("name", "plan_level", "created_at", "updated_at") VALUES (?, ?, ?, ?)[0m  [["name", "company859"], ["plan_level", "custom"], ["created_at", "2017-10-27 19:43:02.006771"], ["updated_at", "2017-10-27 19:43:02.006771"]]
+  [1m[35m (0.1ms)[0m  [1m[35mRELEASE SAVEPOINT active_record_1[0m
+  [1m[35m (0.1ms)[0m  [1m[35mSAVEPOINT active_record_1[0m
+  [1m[35mSQL (0.1ms)[0m  [1m[32mINSERT INTO "companies" ("name", "plan_level", "created_at", "updated_at") VALUES (?, ?, ?, ?)[0m  [["name", "company923"], ["plan_level", "custom"], ["created_at", "2017-10-27 19:43:02.008471"], ["updated_at", "2017-10-27 19:43:02.008471"]]
+  [1m[35m (0.0ms)[0m  [1m[35mRELEASE SAVEPOINT active_record_1[0m
+  [1m[35m (0.1ms)[0m  [1m[35mSAVEPOINT active_record_1[0m
+  [1m[35mSQL (0.1ms)[0m  [1m[32mINSERT INTO "companies" ("name", "plan_level", "created_at", "updated_at") VALUES (?, ?, ?, ?)[0m  [["name", "company233"], ["plan_level", "custom"], ["created_at", "2017-10-27 19:43:02.009963"], ["updated_at", "2017-10-27 19:43:02.009963"]]
+  [1m[35m (0.0ms)[0m  [1m[35mRELEASE SAVEPOINT active_record_1[0m
+  [1m[35m (0.1ms)[0m  [1m[35mSAVEPOINT active_record_1[0m
+  [1m[35mSQL (0.1ms)[0m  [1m[32mINSERT INTO "companies" ("name", "plan_level", "created_at", "updated_at") VALUES (?, ?, ?, ?)[0m  [["name", "company206"], ["plan_level", "custom"], ["created_at", "2017-10-27 19:43:02.011508"], ["updated_at", "2017-10-27 19:43:02.011508"]]
+  [1m[35m (0.1ms)[0m  [1m[35mRELEASE SAVEPOINT active_record_1[0m
+  [1m[35m (0.1ms)[0m  [1m[35mSAVEPOINT active_record_1[0m
+  [1m[35mSQL (0.1ms)[0m  [1m[32mINSERT INTO "companies" ("name", "plan_level", "created_at", "updated_at") VALUES (?, ?, ?, ?)[0m  [["name", "company548"], ["plan_level", "custom"], ["created_at", "2017-10-27 19:43:02.013942"], ["updated_at", "2017-10-27 19:43:02.013942"]]
+  [1m[35m (0.1ms)[0m  [1m[35mRELEASE SAVEPOINT active_record_1[0m
+  [1m[35m (0.1ms)[0m  [1m[35mSAVEPOINT active_record_1[0m
+  [1m[35mSQL (0.1ms)[0m  [1m[32mINSERT INTO "companies" ("name", "plan_level", "created_at", "updated_at") VALUES (?, ?, ?, ?)[0m  [["name", "company946"], ["plan_level", "custom"], ["created_at", "2017-10-27 19:43:02.016741"], ["updated_at", "2017-10-27 19:43:02.016741"]]
+  [1m[35m (0.1ms)[0m  [1m[35mRELEASE SAVEPOINT active_record_1[0m
+  [1m[35m (0.0ms)[0m  [1m[35mSAVEPOINT active_record_1[0m
+  [1m[35mSQL (0.1ms)[0m  [1m[32mINSERT INTO "companies" ("name", "plan_level", "created_at", "updated_at") VALUES (?, ?, ?, ?)[0m  [["name", "company541"], ["plan_level", "custom"], ["created_at", "2017-10-27 19:43:02.018510"], ["updated_at", "2017-10-27 19:43:02.018510"]]
+  [1m[35m (0.1ms)[0m  [1m[35mRELEASE SAVEPOINT active_record_1[0m
+  [1m[35m (0.0ms)[0m  [1m[35mSAVEPOINT active_record_1[0m
+  [1m[35mSQL (0.1ms)[0m  [1m[32mINSERT INTO "companies" ("name", "plan_level", "created_at", "updated_at") VALUES (?, ?, ?, ?)[0m  [["name", "company129"], ["plan_level", "custom"], ["created_at", "2017-10-27 19:43:02.020108"], ["updated_at", "2017-10-27 19:43:02.020108"]]
+  [1m[35m (0.1ms)[0m  [1m[35mRELEASE SAVEPOINT active_record_1[0m
+  [1m[35m (0.0ms)[0m  [1m[35mSAVEPOINT active_record_1[0m
+  [1m[35mSQL (0.1ms)[0m  [1m[32mINSERT INTO "companies" ("name", "plan_level", "created_at", "updated_at") VALUES (?, ?, ?, ?)[0m  [["name", "company320"], ["plan_level", "custom"], ["created_at", "2017-10-27 19:43:02.021706"], ["updated_at", "2017-10-27 19:43:02.021706"]]
+  [1m[35m (0.1ms)[0m  [1m[35mRELEASE SAVEPOINT active_record_1[0m
+Processing by CompaniesController#index as HTML
+  [1m[36mCompany Load (0.1ms)[0m  [1m[34mSELECT "companies".* FROM "companies"[0m
+Completed 200 OK in 6ms (Views: 5.8ms | ActiveRecord: 0.1ms)
+  [1m[35m (6.7ms)[0m  [1m[31mrollback transaction[0m
+  [1m[35m (0.2ms)[0m  [1m[34mSELECT "schema_migrations"."version" FROM "schema_migrations" ORDER BY "schema_migrations"."version" ASC[0m
+  [1m[35m (0.1ms)[0m  [1m[36mbegin transaction[0m
+Processing by CompaniesController#index as HTML
+  [1m[36mCompany Load (0.2ms)[0m  [1m[34mSELECT "companies".* FROM "companies"[0m
+Completed 200 OK in 3ms (Views: 1.5ms | ActiveRecord: 0.4ms)
+  [1m[35m (0.1ms)[0m  [1m[31mrollback transaction[0m
+  [1m[35m (0.2ms)[0m  [1m[36mbegin transaction[0m
+  [1m[35m (0.1ms)[0m  [1m[35mSAVEPOINT active_record_1[0m
+  [1m[35mSQL (0.6ms)[0m  [1m[32mINSERT INTO "companies" ("name", "plan_level", "created_at", "updated_at") VALUES (?, ?, ?, ?)[0m  [["name", "company522"], ["plan_level", "custom"], ["created_at", "2017-10-27 19:43:33.741287"], ["updated_at", "2017-10-27 19:43:33.741287"]]
+  [1m[35m (0.1ms)[0m  [1m[35mRELEASE SAVEPOINT active_record_1[0m
+  [1m[35m (0.1ms)[0m  [1m[35mSAVEPOINT active_record_1[0m
+  [1m[35mSQL (0.1ms)[0m  [1m[32mINSERT INTO "companies" ("name", "plan_level", "created_at", "updated_at") VALUES (?, ?, ?, ?)[0m  [["name", "company244"], ["plan_level", "custom"], ["created_at", "2017-10-27 19:43:33.744478"], ["updated_at", "2017-10-27 19:43:33.744478"]]
+  [1m[35m (0.1ms)[0m  [1m[35mRELEASE SAVEPOINT active_record_1[0m
+  [1m[35m (0.1ms)[0m  [1m[35mSAVEPOINT active_record_1[0m
+  [1m[35mSQL (0.1ms)[0m  [1m[32mINSERT INTO "companies" ("name", "plan_level", "created_at", "updated_at") VALUES (?, ?, ?, ?)[0m  [["name", "company625"], ["plan_level", "custom"], ["created_at", "2017-10-27 19:43:33.746499"], ["updated_at", "2017-10-27 19:43:33.746499"]]
+  [1m[35m (0.1ms)[0m  [1m[35mRELEASE SAVEPOINT active_record_1[0m
+  [1m[35m (0.1ms)[0m  [1m[35mSAVEPOINT active_record_1[0m
+  [1m[35mSQL (0.1ms)[0m  [1m[32mINSERT INTO "companies" ("name", "plan_level", "created_at", "updated_at") VALUES (?, ?, ?, ?)[0m  [["name", "company437"], ["plan_level", "custom"], ["created_at", "2017-10-27 19:43:33.748182"], ["updated_at", "2017-10-27 19:43:33.748182"]]
+  [1m[35m (0.1ms)[0m  [1m[35mRELEASE SAVEPOINT active_record_1[0m
+  [1m[35m (0.1ms)[0m  [1m[35mSAVEPOINT active_record_1[0m
+  [1m[35mSQL (0.1ms)[0m  [1m[32mINSERT INTO "companies" ("name", "plan_level", "created_at", "updated_at") VALUES (?, ?, ?, ?)[0m  [["name", "company307"], ["plan_level", "custom"], ["created_at", "2017-10-27 19:43:33.749882"], ["updated_at", "2017-10-27 19:43:33.749882"]]
+  [1m[35m (0.1ms)[0m  [1m[35mRELEASE SAVEPOINT active_record_1[0m
+  [1m[35m (0.1ms)[0m  [1m[35mSAVEPOINT active_record_1[0m
+  [1m[35mSQL (0.1ms)[0m  [1m[32mINSERT INTO "companies" ("name", "plan_level", "created_at", "updated_at") VALUES (?, ?, ?, ?)[0m  [["name", "company307"], ["plan_level", "custom"], ["created_at", "2017-10-27 19:43:33.751496"], ["updated_at", "2017-10-27 19:43:33.751496"]]
+  [1m[35m (0.1ms)[0m  [1m[35mRELEASE SAVEPOINT active_record_1[0m
+  [1m[35m (0.1ms)[0m  [1m[35mSAVEPOINT active_record_1[0m
+  [1m[35mSQL (0.2ms)[0m  [1m[32mINSERT INTO "companies" ("name", "plan_level", "created_at", "updated_at") VALUES (?, ?, ?, ?)[0m  [["name", "company445"], ["plan_level", "custom"], ["created_at", "2017-10-27 19:43:33.754172"], ["updated_at", "2017-10-27 19:43:33.754172"]]
+  [1m[35m (0.1ms)[0m  [1m[35mRELEASE SAVEPOINT active_record_1[0m
+  [1m[35m (0.1ms)[0m  [1m[35mSAVEPOINT active_record_1[0m
+  [1m[35mSQL (0.1ms)[0m  [1m[32mINSERT INTO "companies" ("name", "plan_level", "created_at", "updated_at") VALUES (?, ?, ?, ?)[0m  [["name", "company573"], ["plan_level", "custom"], ["created_at", "2017-10-27 19:43:33.757121"], ["updated_at", "2017-10-27 19:43:33.757121"]]
+  [1m[35m (0.1ms)[0m  [1m[35mRELEASE SAVEPOINT active_record_1[0m
+  [1m[35m (0.1ms)[0m  [1m[35mSAVEPOINT active_record_1[0m
+  [1m[35mSQL (0.1ms)[0m  [1m[32mINSERT INTO "companies" ("name", "plan_level", "created_at", "updated_at") VALUES (?, ?, ?, ?)[0m  [["name", "company871"], ["plan_level", "custom"], ["created_at", "2017-10-27 19:43:33.759030"], ["updated_at", "2017-10-27 19:43:33.759030"]]
+  [1m[35m (0.1ms)[0m  [1m[35mRELEASE SAVEPOINT active_record_1[0m
+  [1m[35m (0.1ms)[0m  [1m[35mSAVEPOINT active_record_1[0m
+  [1m[35mSQL (0.1ms)[0m  [1m[32mINSERT INTO "companies" ("name", "plan_level", "created_at", "updated_at") VALUES (?, ?, ?, ?)[0m  [["name", "company503"], ["plan_level", "custom"], ["created_at", "2017-10-27 19:43:33.760652"], ["updated_at", "2017-10-27 19:43:33.760652"]]
+  [1m[35m (0.1ms)[0m  [1m[35mRELEASE SAVEPOINT active_record_1[0m
+Processing by CompaniesController#index as HTML
+  [1m[36mCompany Load (9.6ms)[0m  [1m[34mSELECT "companies".* FROM "companies"[0m
+Completed 200 OK in 16ms (Views: 6.0ms | ActiveRecord: 9.6ms)
+  [1m[35m (0.7ms)[0m  [1m[31mrollback transaction[0m
+  [1m[35m (0.1ms)[0m  [1m[36mbegin transaction[0m
+  [1m[35m (0.1ms)[0m  [1m[31mrollback transaction[0m
+  [1m[35m (0.1ms)[0m  [1m[36mbegin transaction[0m
+  [1m[35m (0.0ms)[0m  [1m[31mrollback transaction[0m
+  [1m[35m (0.1ms)[0m  [1m[36mbegin transaction[0m
+  [1m[35m (0.0ms)[0m  [1m[31mrollback transaction[0m
+  [1m[35m (0.1ms)[0m  [1m[36mbegin transaction[0m
+  [1m[35m (0.1ms)[0m  [1m[31mrollback transaction[0m
+  [1m[35m (0.1ms)[0m  [1m[36mbegin transaction[0m
+  [1m[35m (0.0ms)[0m  [1m[31mrollback transaction[0m
+  [1m[35m (0.0ms)[0m  [1m[36mbegin transaction[0m
+  [1m[35m (0.0ms)[0m  [1m[31mrollback transaction[0m
+  [1m[35m (0.0ms)[0m  [1m[36mbegin transaction[0m
+  [1m[35m (0.0ms)[0m  [1m[31mrollback transaction[0m
+  [1m[35m (0.0ms)[0m  [1m[36mbegin transaction[0m
+  [1m[35m (0.1ms)[0m  [1m[35mSAVEPOINT active_record_1[0m
+  [1m[35mSQL (0.5ms)[0m  [1m[32mINSERT INTO "companies" ("name", "plan_level", "created_at", "updated_at") VALUES (?, ?, ?, ?)[0m  [["name", "a valid name"], ["plan_level", "custom"], ["created_at", "2017-10-27 19:43:34.601390"], ["updated_at", "2017-10-27 19:43:34.601390"]]
+  [1m[35m (0.1ms)[0m  [1m[35mRELEASE SAVEPOINT active_record_1[0m
+  [1m[35m (0.4ms)[0m  [1m[31mrollback transaction[0m
+  [1m[35m (0.1ms)[0m  [1m[36mbegin transaction[0m
+  [1m[35m (0.1ms)[0m  [1m[35mSAVEPOINT active_record_1[0m
+  [1m[35mSQL (0.5ms)[0m  [1m[32mINSERT INTO "companies" ("name", "plan_level", "created_at", "updated_at") VALUES (?, ?, ?, ?)[0m  [["name", "a valid name"], ["plan_level", "custom"], ["created_at", "2017-10-27 19:43:34.606319"], ["updated_at", "2017-10-27 19:43:34.606319"]]
+  [1m[35m (0.1ms)[0m  [1m[35mRELEASE SAVEPOINT active_record_1[0m
+  [1m[35m (0.5ms)[0m  [1m[31mrollback transaction[0m
+  [1m[35m (0.1ms)[0m  [1m[36mbegin transaction[0m
+  [1m[35m (0.1ms)[0m  [1m[35mSAVEPOINT active_record_1[0m
+  [1m[35mSQL (0.4ms)[0m  [1m[32mINSERT INTO "companies" ("name", "plan_level", "created_at", "updated_at") VALUES (?, ?, ?, ?)[0m  [["name", "some company"], ["plan_level", "custom"], ["created_at", "2017-10-27 19:43:34.611718"], ["updated_at", "2017-10-27 19:43:34.611718"]]
+  [1m[35m (0.1ms)[0m  [1m[35mRELEASE SAVEPOINT active_record_1[0m
+  [1m[35m (0.1ms)[0m  [1m[35mSAVEPOINT active_record_1[0m
+  [1m[35mSQL (0.5ms)[0m  [1m[32mINSERT INTO "lessons" ("name", "company_id", "created_at", "updated_at", "active") VALUES (?, ?, ?, ?, ?)[0m  [["name", "alesson"], ["company_id", 1], ["created_at", "2017-10-27 19:43:34.633585"], ["updated_at", "2017-10-27 19:43:34.633585"], ["active", "t"]]
+  [1m[35m (0.1ms)[0m  [1m[35mRELEASE SAVEPOINT active_record_1[0m
+  [1m[35m (0.4ms)[0m  [1m[31mrollback transaction[0m
+  [1m[35m (0.1ms)[0m  [1m[36mbegin transaction[0m
+  [1m[35m (0.1ms)[0m  [1m[31mrollback transaction[0m
+  [1m[35m (0.1ms)[0m  [1m[36mbegin transaction[0m
+  [1m[35m (0.1ms)[0m  [1m[35mSAVEPOINT active_record_1[0m
+  [1m[35mSQL (0.4ms)[0m  [1m[32mINSERT INTO "companies" ("name", "plan_level", "created_at", "updated_at") VALUES (?, ?, ?, ?)[0m  [["name", "some company"], ["plan_level", "custom"], ["created_at", "2017-10-27 19:43:34.645039"], ["updated_at", "2017-10-27 19:43:34.645039"]]
+  [1m[35m (0.3ms)[0m  [1m[35mRELEASE SAVEPOINT active_record_1[0m
+  [1m[35m (0.4ms)[0m  [1m[31mrollback transaction[0m
+  [1m[35m (0.1ms)[0m  [1m[36mbegin transaction[0m
+  [1m[35m (0.1ms)[0m  [1m[35mSAVEPOINT active_record_1[0m
+  [1m[35mSQL (0.4ms)[0m  [1m[32mINSERT INTO "companies" ("name", "plan_level", "created_at", "updated_at") VALUES (?, ?, ?, ?)[0m  [["name", "some company"], ["plan_level", "custom"], ["created_at", "2017-10-27 19:43:34.651071"], ["updated_at", "2017-10-27 19:43:34.651071"]]
+  [1m[35m (0.1ms)[0m  [1m[35mRELEASE SAVEPOINT active_record_1[0m
+  [1m[35m (0.4ms)[0m  [1m[31mrollback transaction[0m
+  [1m[35m (0.1ms)[0m  [1m[36mbegin transaction[0m
+  [1m[35m (0.1ms)[0m  [1m[35mSAVEPOINT active_record_1[0m
+  [1m[35mSQL (0.5ms)[0m  [1m[32mINSERT INTO "companies" ("name", "plan_level", "created_at", "updated_at") VALUES (?, ?, ?, ?)[0m  [["name", "some company"], ["plan_level", "custom"], ["created_at", "2017-10-27 19:43:34.656322"], ["updated_at", "2017-10-27 19:43:34.656322"]]
+  [1m[35m (0.1ms)[0m  [1m[35mRELEASE SAVEPOINT active_record_1[0m
+  [1m[35m (0.5ms)[0m  [1m[31mrollback transaction[0m
+  [1m[35m (0.1ms)[0m  [1m[36mbegin transaction[0m
+  [1m[35m (0.1ms)[0m  [1m[35mSAVEPOINT active_record_1[0m
+  [1m[35mSQL (0.5ms)[0m  [1m[32mINSERT INTO "companies" ("name", "plan_level", "created_at", "updated_at") VALUES (?, ?, ?, ?)[0m  [["name", "some company"], ["plan_level", "custom"], ["created_at", "2017-10-27 19:43:34.662521"], ["updated_at", "2017-10-27 19:43:34.662521"]]
+  [1m[35m (0.9ms)[0m  [1m[35mRELEASE SAVEPOINT active_record_1[0m
+  [1m[35m (0.7ms)[0m  [1m[31mrollback transaction[0m
+  [1m[35m (0.2ms)[0m  [1m[34mSELECT "schema_migrations"."version" FROM "schema_migrations" ORDER BY "schema_migrations"."version" ASC[0m
+  [1m[35m (0.1ms)[0m  [1m[36mbegin transaction[0m
+Processing by CompaniesController#index as HTML
+  [1m[36mCompany Load (0.3ms)[0m  [1m[34mSELECT "companies".* FROM "companies"[0m
+Completed 200 OK in 6ms (Views: 1.9ms | ActiveRecord: 0.5ms)
+  [1m[35m (0.1ms)[0m  [1m[31mrollback transaction[0m
+  [1m[35m (0.1ms)[0m  [1m[36mbegin transaction[0m
+  [1m[35m (0.1ms)[0m  [1m[35mSAVEPOINT active_record_1[0m
+  [1m[35mSQL (0.5ms)[0m  [1m[32mINSERT INTO "companies" ("name", "plan_level", "created_at", "updated_at") VALUES (?, ?, ?, ?)[0m  [["name", "company994"], ["plan_level", "custom"], ["created_at", "2017-10-27 19:44:00.755401"], ["updated_at", "2017-10-27 19:44:00.755401"]]
+  [1m[35m (0.1ms)[0m  [1m[35mRELEASE SAVEPOINT active_record_1[0m
+  [1m[35m (0.1ms)[0m  [1m[35mSAVEPOINT active_record_1[0m
+  [1m[35mSQL (0.1ms)[0m  [1m[32mINSERT INTO "companies" ("name", "plan_level", "created_at", "updated_at") VALUES (?, ?, ?, ?)[0m  [["name", "company760"], ["plan_level", "custom"], ["created_at", "2017-10-27 19:44:00.758127"], ["updated_at", "2017-10-27 19:44:00.758127"]]
+  [1m[35m (0.1ms)[0m  [1m[35mRELEASE SAVEPOINT active_record_1[0m
+  [1m[35m (0.1ms)[0m  [1m[35mSAVEPOINT active_record_1[0m
+  [1m[35mSQL (0.2ms)[0m  [1m[32mINSERT INTO "companies" ("name", "plan_level", "created_at", "updated_at") VALUES (?, ?, ?, ?)[0m  [["name", "company318"], ["plan_level", "custom"], ["created_at", "2017-10-27 19:44:00.759922"], ["updated_at", "2017-10-27 19:44:00.759922"]]
+  [1m[35m (0.1ms)[0m  [1m[35mRELEASE SAVEPOINT active_record_1[0m
+  [1m[35m (0.1ms)[0m  [1m[35mSAVEPOINT active_record_1[0m
+  [1m[35mSQL (0.2ms)[0m  [1m[32mINSERT INTO "companies" ("name", "plan_level", "created_at", "updated_at") VALUES (?, ?, ?, ?)[0m  [["name", "company434"], ["plan_level", "custom"], ["created_at", "2017-10-27 19:44:00.762460"], ["updated_at", "2017-10-27 19:44:00.762460"]]
+  [1m[35m (0.2ms)[0m  [1m[35mRELEASE SAVEPOINT active_record_1[0m
+  [1m[35m (0.1ms)[0m  [1m[35mSAVEPOINT active_record_1[0m
+  [1m[35mSQL (0.1ms)[0m  [1m[32mINSERT INTO "companies" ("name", "plan_level", "created_at", "updated_at") VALUES (?, ?, ?, ?)[0m  [["name", "company626"], ["plan_level", "custom"], ["created_at", "2017-10-27 19:44:00.765152"], ["updated_at", "2017-10-27 19:44:00.765152"]]
+  [1m[35m (0.1ms)[0m  [1m[35mRELEASE SAVEPOINT active_record_1[0m
+  [1m[35m (0.1ms)[0m  [1m[35mSAVEPOINT active_record_1[0m
+  [1m[35mSQL (0.1ms)[0m  [1m[32mINSERT INTO "companies" ("name", "plan_level", "created_at", "updated_at") VALUES (?, ?, ?, ?)[0m  [["name", "company841"], ["plan_level", "custom"], ["created_at", "2017-10-27 19:44:00.767003"], ["updated_at", "2017-10-27 19:44:00.767003"]]
+  [1m[35m (0.3ms)[0m  [1m[35mRELEASE SAVEPOINT active_record_1[0m
+  [1m[35m (0.2ms)[0m  [1m[35mSAVEPOINT active_record_1[0m
+  [1m[35mSQL (0.2ms)[0m  [1m[32mINSERT INTO "companies" ("name", "plan_level", "created_at", "updated_at") VALUES (?, ?, ?, ?)[0m  [["name", "company712"], ["plan_level", "custom"], ["created_at", "2017-10-27 19:44:00.770890"], ["updated_at", "2017-10-27 19:44:00.770890"]]
+  [1m[35m (0.1ms)[0m  [1m[35mRELEASE SAVEPOINT active_record_1[0m
+  [1m[35m (0.1ms)[0m  [1m[35mSAVEPOINT active_record_1[0m
+  [1m[35mSQL (0.1ms)[0m  [1m[32mINSERT INTO "companies" ("name", "plan_level", "created_at", "updated_at") VALUES (?, ?, ?, ?)[0m  [["name", "company201"], ["plan_level", "custom"], ["created_at", "2017-10-27 19:44:00.773645"], ["updated_at", "2017-10-27 19:44:00.773645"]]
+  [1m[35m (0.1ms)[0m  [1m[35mRELEASE SAVEPOINT active_record_1[0m
+  [1m[35m (0.1ms)[0m  [1m[35mSAVEPOINT active_record_1[0m
+  [1m[35mSQL (0.2ms)[0m  [1m[32mINSERT INTO "companies" ("name", "plan_level", "created_at", "updated_at") VALUES (?, ?, ?, ?)[0m  [["name", "company892"], ["plan_level", "custom"], ["created_at", "2017-10-27 19:44:00.776115"], ["updated_at", "2017-10-27 19:44:00.776115"]]
+  [1m[35m (0.1ms)[0m  [1m[35mRELEASE SAVEPOINT active_record_1[0m
+  [1m[35m (0.1ms)[0m  [1m[35mSAVEPOINT active_record_1[0m
+  [1m[35mSQL (0.2ms)[0m  [1m[32mINSERT INTO "companies" ("name", "plan_level", "created_at", "updated_at") VALUES (?, ?, ?, ?)[0m  [["name", "company655"], ["plan_level", "custom"], ["created_at", "2017-10-27 19:44:00.779788"], ["updated_at", "2017-10-27 19:44:00.779788"]]
+  [1m[35m (0.1ms)[0m  [1m[35mRELEASE SAVEPOINT active_record_1[0m
+Processing by CompaniesController#index as HTML
+  [1m[36mCompany Load (0.3ms)[0m  [1m[34mSELECT "companies".* FROM "companies"[0m
+Completed 200 OK in 9ms (Views: 8.5ms | ActiveRecord: 0.3ms)
+  [1m[35m (1.2ms)[0m  [1m[31mrollback transaction[0m

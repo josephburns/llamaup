@@ -5,15 +5,14 @@
         1,
         null
       ],
-      "/Users/jburns/code/llamaup/app/models/lesson.rb": [
+      "/Users/jburns/code/llamaup/app/controllers/companies_controller.rb": [
         1,
         1,
+        2,
         null,
-        1,
-        1,
         null
       ],
-      "/Users/jburns/code/llamaup/app/models/application_record.rb": [
+      "/Users/jburns/code/llamaup/app/controllers/application_controller.rb": [
         1,
         1,
         null
@@ -26,11 +25,24 @@
         1,
         null,
         1,
-        0,
+        2,
         null,
+        null
+      ],
+      "/Users/jburns/code/llamaup/app/models/application_record.rb": [
+        1,
+        1,
+        null
+      ],
+      "/Users/jburns/code/llamaup/app/models/lesson.rb": [
+        1,
+        1,
+        null,
+        1,
+        1,
         null
       ]
     },
-    "timestamp": 1509121251
+    "timestamp": 1509133414
   }
 }

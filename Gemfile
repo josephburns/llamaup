@@ -40,7 +40,6 @@ group :development, :test do
   #gem 'capybara', '~> 2.13'
   #gem 'selenium-webdriver'
   gem 'rspec-rails'
-  gem 'shoulda'
   gem 'shoulda-matchers'
   gem 'rails-controller-testing'
   gem 'pry-rails'
@@ -49,7 +48,6 @@ group :development, :test do
 end
 
 group :test do
-  gem 'sqlite3'
   gem 'simplecov', require: false
   gem 'database_cleaner'
 end
