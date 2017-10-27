@@ -1,25 +1,61 @@
 require 'rails_helper'
 
 RSpec.describe Company, type: :model do
-  describe 'validations' do
-    it "is not valid without a name" do
-      company = Company.new(:name => nil)
-      expect(company).to_not be_valid
+  describe 'name validations' do
+    before(:each) do
+      @company = Company.new(plan_level: 'custom')
+    end
+    
+    it 'is not valid without a name' do
+      @company.name = nil
+      expect(@company).to_not be_valid
     end
 
-    it "is not valid with a name but without a plan level" do
-      company = Company.new(:name => 'new company', :plan_level => nil)
-      expect(company).to_not be_valid
+    it 'is valid with a name of the right size' do
+      @company.name = 'some company'
+      expect(@company).to be_valid
+    end
+    
+    it 'is not valid with a name that is too short' do
+      @company.name = 'a'
+      expect(@company).to_not be_valid
+    end
+    it 'is not valid with a name that is too long' do
+      @company.name = 'a'
+      255.times do
+        @company.name = @company.name + 'a'
+      end
+      expect(@company).to_not be_valid
+    end
+  end
+
+  describe 'plan validations' do
+    before(:each) do
+      @company = Company.new(:name => 'a valid name')
     end
 
-    it "is not valid with valid name, invalid plan_level" do
-      company = Company.new(:name => 'new company', :plan_level => 'bad plan')
-      expect(company).to_not be_valid
+    it 'is invalid with no plan' do
+      expect(@company).to_not be_valid
     end
+    it 'is valid with a valid plan' do
+      @company.plan_level = 'custom'
+      expect(@company).to be_valid
+    end
+    it 'is invalid with an invalid plan' do
+      @company.plan_level = 'bad plan'
+      expect(@company).to_not be_valid
+    end
+  end
 
-    it "is valid with valid name and plan level" do
-      company = Company.new(:name => 'new company', :plan_level => 'custom')
-      expect(company).to be_valid
+  describe :trials_status do
+    it 'trials_status returns true if within trial period' do
+      company = create(:company, :name => 'a valid name', :plan_level => 'custom')
+      expect(company.trial_status).to be_truthy
+    end
+    it 'trials_status returns false if after trial period' do
+      company = create(:company, :name => 'a valid name', :plan_level => 'custom')
+      company.created_at = Date.today - 60
+      expect(company.trial_status).to_not be_truthy
     end
   end
 end
