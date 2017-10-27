@@ -57,4 +57,23 @@ RSpec.describe CompaniesController, type: :controller do
     end
   end
 
+  describe "get #not_trialing" do
+    it "returns http success" do
+      get :not_trialing
+      expect(response).to have_http_status(:success)
+    end
+    it "returns companies that are not trialing" do
+      for i in 0..4
+        create(:company, :name => "company#{i}", :plan_level => 'custom')
+        create(:company, :name => "company#{i+i}", :plan_level => 'legacy')
+      end
+      # set the date back on half (5) of these to where they are not in trial per the not_trialing method - all customers assumed in trial when starting, expires in configured numbers of days (e.g. 30) per company model trial_status method
+      for company in Company.where(:plan_level => 'legacy')
+        company.update(created_at: Date.today - 60.days)
+      end
+      get :not_trialing
+      json = JSON.parse(response.body)
+      expect(json['data'].length).to eq(5)
+    end
+  end
 end

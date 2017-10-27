@@ -18,6 +18,10 @@
         1,
         2,
         null,
+        null,
+        1,
+        12,
+        null,
         null
       ],
       "/Users/jburns/code/llamaup/app/controllers/application_controller.rb": [
@@ -33,7 +37,7 @@
         1,
         null,
         1,
-        0,
+        12,
         null,
         null
       ],
@@ -41,8 +45,16 @@
         1,
         1,
         null
+      ],
+      "/Users/jburns/code/llamaup/app/models/lesson.rb": [
+        1,
+        1,
+        null,
+        1,
+        1,
+        null
       ]
     },
-    "timestamp": 1509138986
+    "timestamp": 1509146116
   }
 }
