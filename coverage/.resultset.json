@@ -22,6 +22,16 @@
         1,
         12,
         null,
+        null,
+        1,
+        2,
+        2,
+        2,
+        5,
+        5,
+        null,
+        2,
+        null,
         null
       ],
       "/Users/jburns/code/llamaup/app/controllers/application_controller.rb": [
@@ -55,6 +65,6 @@
         null
       ]
     },
-    "timestamp": 1509146116
+    "timestamp": 1509152557
   }
 }

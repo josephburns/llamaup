@@ -76,4 +76,23 @@ RSpec.describe CompaniesController, type: :controller do
       expect(json['data'].length).to eq(5)
     end
   end
+
+  describe "get #created_last_month" do
+    it "returns http success" do
+      get :created_last_month
+      expect(response).to have_http_status(:success)
+    end
+    it "returns companies that were created last month" do
+      for i in 0..4
+        company = create(:company, :name => "company#{i}", :plan_level => 'custom')
+        # set back the clock for 3 of them
+        if (i % 2 == 0)
+          company.update(created_at: Date.today - 1.month)
+        end
+      end
+      get :created_last_month
+      json = JSON.parse(response.body)
+      expect(json['data'].count).to eq(3)
+    end
+  end
 end
